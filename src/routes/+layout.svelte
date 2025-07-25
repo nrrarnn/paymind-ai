@@ -36,7 +36,7 @@
   ];
 </script>
 
-<div class="flex h-screen bg-gray-100">
+<div class="flex h-screen bg-gray-50">
   <Sidebar {menuItems} />
   <div class="flex-1 overflow-y-auto">
     <main class="p-8">

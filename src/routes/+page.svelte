@@ -1,21 +1,7 @@
 <script> 
   import { dashboardData, recentTransactions } from '$lib/data/index';
+	import { formatCurrency, formatDate } from '$lib/utils/formatter';
 
-  function formatCurrency(amount) {
-    return new Intl.NumberFormat('id-ID', {
-      style: 'currency',
-      currency: 'IDR',
-      minimumFractionDigits: 0
-    }).format(Math.abs(amount)).replace('IDR', 'Rp');
-  }
-
-  function formatDate(dateString) {
-    return new Date(dateString).toLocaleDateString('id-ID', {
-      year: 'numeric',
-      month: '2-digit', 
-      day: '2-digit'
-    });
-  }
 </script>
 
 <svelte:head>
@@ -25,11 +11,8 @@
 <div class="space-y-6">
   <div class="flex items-center justify-between">
     <div>
-      <h1 class="text-2xl font-bold text-gray-900">Dashboard</h1>
-      <p class="text-gray-600">Selamat datang kembali! Berikut ringkasan keuangan Anda.</p>
-    </div>
-    <div class="text-right">
-      <p class="text-sm text-gray-500">Selamat datang!</p>
+      <h1 class="text-2xl text-gray-900 font-sans font-bold">Dashboard</h1>
+      <p class="font-sans text-gray-600">Selamat datang kembali! Berikut ringkasan keuangan Anda.</p>
     </div>
   </div>
 
