@@ -160,7 +160,7 @@
 
   <div class="relative z-10">
     <header class="gradient-bg text-white shadow-2xl animate-slide-up">
-      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <!-- <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex items-center justify-between py-6">
           <div class="flex items-center space-x-4">
             <div class="relative">
@@ -186,31 +186,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </header>
 
 <!-- Main Content -->
   <div class="max-w-7xl mx-auto px-6 lg:px-8 py-8">
     <!-- Summary Cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 animate-fade-in">
-      <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 card-hover relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full -mr-16 -mt-16 opacity-10"></div>
-          <div class="relative z-10">
-            <div class="flex items-center justify-between mb-4">
-              <div>
-                <p class="text-gray-500 text-sm font-medium mb-2">Total Saldo</p>
-                <p class="text-3xl font-bold gradient-text" id="totalBalance">Rp 0</p>
-              </div>
-              <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                <i class="fas fa-wallet text-white text-xl"></i>
-              </div>
-            </div>
-              <div class="flex items-center text-green-600">
-                <i class="fas fa-arrow-up text-xs mr-1"></i>
-                <span class="text-sm font-medium">+2.5% dari bulan lalu</span>
-              </div>
-            </div>
-          </div>
+
                 
           <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 card-hover relative overflow-hidden">
             <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-400 to-green-600 rounded-full -mr-16 -mt-16 opacity-10"></div>
