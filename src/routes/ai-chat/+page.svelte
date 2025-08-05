@@ -49,7 +49,6 @@
 	}
 	
 	onMount(() => {
-		// Focus on input when component mounts
 		const input = document.querySelector('textarea');
 		if (input) input.focus();
 	});
