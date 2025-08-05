@@ -170,8 +170,8 @@
                 <div class="absolute inset-0 w-12 h-12 bg-white bg-opacity-10 rounded-2xl pulse-ring"></div>
               </div>
               <div>
-                <h1 class="text-3xl font-bold">Dashboard Keuangan</h1>
-                <p class="text-blue-100 text-sm font-light">Kelola keuangan Anda dengan mudah</p>
+                <h1 class="text-3xl font-bold text-slate-800">Dashboard Keuangan</h1>
+                <p class="text-blue-400 text-sm font-light">Kelola keuangan Anda dengan mudah</p>
               </div>
             </div>
             <div class="flex items-center space-x-6">
